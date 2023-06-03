@@ -8,9 +8,9 @@ class BuddyMenusServiceProvider extends ServiceProvider
 {
     public function boot()
     {
-        $this->loadMigrationsFrom(__DIR__ . '/../database/migrations');
+        $this->loadMigrationsFrom(__DIR__ . '/database/migrations');
 
-        $this->loadViewsFrom(__DIR__ . '/../resources/views', 'buddymenus');
+        $this->loadViewsFrom(__DIR__ . '/resources/views', 'buddymenus');
 
         $this->publishes([
             __DIR__ . '/config/buddymenus.php' => config_path('buddymenus.php'),

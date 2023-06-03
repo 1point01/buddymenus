@@ -14,7 +14,7 @@ class BuddyMenusServiceProvider extends ServiceProvider
 
         $this->publishes([
             __DIR__ . '/../config/buddymenus.php' => config_path('buddymenus.php'),
-        ], 'config');
+        ], 'buddymenu-config');
 
         $this->commands([
             Console\Commands\InsertMenusCommand::class,

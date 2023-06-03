@@ -1,0 +1,34 @@
+{
+  "name": "builderbuddy/buddymenus",
+  "description": "Laravel package for managing menus",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Builder Buddy",
+      "email": "support@builderbuddy.com"
+    }
+  ],
+  "require": {
+    "php": "^7.4 || ^8.0",
+    "illuminate/support": "^8.0",
+    "illuminate/database": "^8.0",
+    "illuminate/console": "^8.0",
+    "illuminate/filesystem": "^8.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "BuilderBuddy\\BuddyMenus\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "BuilderBuddy\\BuddyMenus\\Tests\\": "tests/"
+    }
+  },
+  "scripts": {
+    "test": "phpunit"
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}

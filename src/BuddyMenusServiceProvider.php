@@ -13,7 +13,7 @@ class BuddyMenusServiceProvider extends ServiceProvider
         $this->loadViewsFrom(__DIR__ . '/../resources/views', 'buddymenus');
 
         $this->publishes([
-            __DIR__ . '/../config/buddymenus.php' => config_path('buddymenus.php'),
+            __DIR__ . '/config/buddymenus.php' => config_path('buddymenus.php'),
         ], 'buddymenu-config');
 
         $this->commands([

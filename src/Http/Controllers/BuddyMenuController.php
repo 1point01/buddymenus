@@ -4,6 +4,7 @@ namespace BuilderBuddy\BuddyMenus\Http\Controllers;
 
 use Illuminate\Http\Request;
 use BuilderBuddy\BuddyMenus\Models\BuddyMenu;
+use App\Http\Controllers\Controller;
 
 class BuddyMenuController extends Controller
 {
